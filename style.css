@@ -48,10 +48,24 @@ label {
 }
 
 input, textarea, select {
+    display: block;
     margin: 10px 0 0 0;
-    width: 100%;
+    width: 50%;
     min-height: 2em;
 }
+
+input, textarea {
+    background-color: whitesmoke;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.box {
+    background-color: whitesmoke;
+    height: 100px;
+    width: 500px;
+}
+
 
 input[type="submit"] {
     display: block;
