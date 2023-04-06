@@ -10,7 +10,12 @@
     border-radius: 10px;
 }
 
+h1 {
+    text-align: center;
+}
+
 form {
+    
     width: 60vw;
     max-width: 500px;
     min-width: 300px;
@@ -25,5 +30,22 @@ fieldset {
 
 label {
     display: block;
-    margin 0.5rem 0;
+    margin: 0.5rem 0;
+}
+
+input, textarea, select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 20%;
+    
+}
+
+.extra {
+    display: block;
+    text-align: center;
 }
