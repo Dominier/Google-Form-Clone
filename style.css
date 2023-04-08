@@ -78,11 +78,18 @@ input, textarea {
 
 /* Submit button */
 input[type="submit"] {
+    margin-right: auto;
+    margin-top: -1.5rem;
     display: block;
-    width: 20%;
-    
+    width: 17.5%;
+    border: none;
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    height: 35px;
 }
 
+/* The bottom text (Things that are not related to the actual form) */
 .extra {
     display: block;
     text-align: center;
