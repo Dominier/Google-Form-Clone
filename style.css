@@ -28,11 +28,14 @@ form {
 
 fieldset {
     border: none;
-    padding: 2rem 0; 
+    padding: 2rem 0;
+
 }
 
 /* Spacing between questions */
 label {
+    padding-top: 20px;
+    padding-left: 20px;
     display: block;
     margin: 0.5rem 0;
 }
