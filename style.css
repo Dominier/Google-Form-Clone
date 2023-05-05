@@ -8,6 +8,7 @@ body {
 }
 
 /* Picture at the top */
+/*
 .picture {
     display: flex;
     justify-content: center;
@@ -19,9 +20,21 @@ body {
     margin-right: auto;
     border-radius: 10px;
 }
+*/
 
-/* Header (Contact Information Form) */
-h1 {
+.Image {
+    display: flex;
+    background-color: green;
+    height: 150px;
+    width: 100%;
+    max-width: 500px;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+/* Header (Contact Information Form) OLD */
+/* h1 {
     text-align: center;
     background-color: whitesmoke;
     border-radius: 10px;
@@ -29,7 +42,27 @@ h1 {
     margin-left: auto;
     width: 500px;
     height: 100px;   
+} */
+
+/* Header Box */
+.header-box {
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 500px;
+    height: 100px;
+    background: whitesmoke;
+    margin-bottom: 20px;
 }
+/* Header (Contact Information) */
+h1 {
+    margin-left: 15px;
+} 
+
+#header {
+    display: inline-block;
+    margin-top: 10px;
+}
+
 
 /* The whole form  */
 form {
@@ -51,24 +84,35 @@ fieldset {
    margin-top: -2.5rem; 
 }
 
+/* Each box */
 label {
     display: block;
     margin: 0.5rem 0;
 }
 
+/* Box Titles (text span element) */
+.box-title {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+
 input, textarea, select {
     display: block;
-    margin: 10px 0 0 0;
+    margin: 20px 0 0 0;
     width: 50%;
     min-height: 2em;
+    margin-left: 15px;
 }
 
 input, textarea {
     background-color: whitesmoke;
     border: none;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid gray;        
 }
 
+/* Box */
 .box {
     background-color: whitesmoke;
     height: 100px;

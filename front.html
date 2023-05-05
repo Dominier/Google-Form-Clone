@@ -9,18 +9,24 @@
 </head>
 
 <body>
-    <!--Image Header-->
-    <img class="picture" src="https://images.pexels.com/photos/663487/pexels-photo-663487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
-    
+    <!--Image Header (REMOVED)-->
+    <!--<img class="picture" src="https://images.pexels.com/photos/663487/pexels-photo-663487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"> -->
+    <!-- Replace for Image Header-->
+    <div class="Image"></div>
+
     <!--Contact Information div-->
-    <h1>Contact Information Form</h1>
+    <!-- <h1>Contact Information Form</h1> -->
+    <div class="header-box">
+        <h1><span id="header">Contact Information</span></h1>
+        <!-- Write Email Area Here -->
+    </div>
     <form method="post">
         <fieldset>
-            <label class="box" for="name">Name<input id="name" name="name" type="text" placeholder="Your answer" required/></label>
-            <label class="box" for="email">Email<input id="email" name="email" type="text" placeholder="Your answer" required/></label>
-            <label class="box" for="address">Address<input id="address" name="address" type="text" placeholder="Your answer" required/></label>
-            <label class="box" for="phone-number">Phone Number<input id="phone-number" name="phone-number" type="text" placeholder="Your answer" required/></label>
-            <label class="box" for="comments">Comments<input id="comments" name="comments" type="text" placeholder="Your answer" required/></label>
+            <label class="box" for="name"><span class="box-title">Name</span><input id="name" name="name" type="text" placeholder="Your answer" required/></label>
+            <label class="box" for="email"><span class="box-title">Email</span><input id="email" name="email" type="text" placeholder="Your answer" required/></label>
+            <label class="box" for="address"><span class="box-title">Address</span><input id="address" name="address" type="text" placeholder="Your answer" required/></label>
+            <label class="box" for="phone-number"><span class="box-title">Phone Number</span><input id="phone-number" name="phone-number" type="text" placeholder="Your answer" required/></label>
+            <label class="box" for="comments"><span class="box-title">Comments</span><input id="comments" name="comments" type="text" placeholder="Your answer" required/></label>
         </fieldset>
         <input type="submit" value="Submit"/>
     </form>
