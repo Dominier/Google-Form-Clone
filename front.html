@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css"/>
+    <script src="script.js"></script>
     <title>Google Form Clone</title>
 </head>
 
@@ -20,10 +21,10 @@
         <h1><span id="header">Contact Information</span></h1>
         <!-- Write Email Area Here -->
     </div>
-    <form method="post">
+    <form method="post" onsubmit="return false">
         <fieldset>
             <label class="box" for="name"><span class="box-title">Name</span><input id="name" name="name" type="text" placeholder="Your answer" required/></label>
-            <label class="box" for="email"><span class="box-title">Email</span><input id="email" name="email" type="text" placeholder="Your answer" required/></label>
+            <label class="box" for="email"><span class="box-title">Email</span><input id="email" name="email" type="email" placeholder="Your answer" required/></label>
             <label class="box" for="address"><span class="box-title">Address</span><input id="address" name="address" type="text" placeholder="Your answer" required/></label>
             <label class="box" for="phone-number"><span class="box-title">Phone Number</span><input id="phone-number" name="phone-number" type="text" placeholder="Your answer" required/></label>
             <label class="box" for="comments"><span class="box-title">Comments</span><input id="comments" name="comments" type="text" placeholder="Your answer" required/></label>
